@@ -57,7 +57,7 @@ public class Bai7 {
         System.out.println("Co " + sl + " so chinh phuong.");
         //sap xep mang tang dan
         for (int i = 0; i < n - 1; i++) {
-            for (int j = 1; j < n; j++) {
+            for (int j = i + 1; j < n; j++) {
                 if (a[i] > a[j]) {
                     int t = a[i];
                     a[i] = a[j];
